@@ -1,0 +1,37 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    margin: 20px auto;
+    border-bottom: 1px solid #edeaea;
+}
+
+.navbar> h1{
+    font-size: 30px;
+    color:var(--heading_color);
+}
+
+.navbar_links > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:var(--body_color);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.navbar_links > a.active {
+    font-weight: 700;
+}
+.navbar_links{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.navbar_emoji{
+    width: 25px;
+    height: 25px;
+}
