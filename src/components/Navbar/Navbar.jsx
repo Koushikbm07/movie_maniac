@@ -1,8 +1,8 @@
 import React from 'react'
 import "./Navbar.css"
-import Fire from "../../../images/fire.png"
-import Party from "../../../images/partying-face.png"
-import Star from "../../../images/star.png"
+import Fire from "../../../public/images/fire.png"
+import Party from "../../../public/images/partying-face.png"
+import Star from "../../../public/images/star.png"
 import { NavLink } from 'react-router-dom'
 import DarkMode from '../DarkMode/DarkMode'
 

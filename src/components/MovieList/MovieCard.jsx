@@ -1,6 +1,6 @@
 import React from 'react'
 import "./MovieCard.css"
-import Star from "../../../images/star.png"
+import Star from "../../../public/images/star.png"
 const MovieCard = ({ movie }) => {
 
     return (

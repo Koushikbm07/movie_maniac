@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "./MovieList.css"
-import Fire from "../../../images/fire.png"
+import Fire from "../../../public/images/fire.png"
 import MovieCard from './MovieCard'
 import FilterGroup from './FilterGroup'
 import sortFun from "lodash"
