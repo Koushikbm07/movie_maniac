@@ -1,8 +1,8 @@
 import './App.css'
 import { Routes, Route } from "react-router-dom"
-import Star from "../images/glowing-star.png"
-import Fire from "../images/fire.png"
-import Party from "../images/partying-face.png"
+import Star from "../public/images/glowing-star.png"
+import Fire from "../public/images/fire.png"
+import Party from "../public/images/partying-face.png"
 import Navbar from './components/Navbar/Navbar'
 import MovieList from './components/MovieList/MovieList'
 
