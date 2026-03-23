@@ -1,7 +1,7 @@
-import React  from 'react'
+import React from 'react'
 import "./MovieCard.css"
-import Star from "../../assets/images/star.png"
-const MovieCard = ({movie}) => {
+import Star from "../../../public/images/star.png"
+const MovieCard = ({ movie }) => {
 
     return (
         <a href={`https://www.themoviedb.org/movie/${movie.id}`} target='_blank' className="movie_card">
@@ -14,7 +14,7 @@ const MovieCard = ({movie}) => {
                         <img src={Star} alt="" className="emoji" /></p>
                 </div>
                 <div className="movie_description">
-                    {movie.overview.slice(0,100)+"..."}
+                    {movie.overview.slice(0, 100) + "..."}
                 </div>
             </div>
 
